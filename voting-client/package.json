@@ -31,6 +31,8 @@
     "react-addons-pure-render-mixin": "^15.4.0",
     "react-addons-test-utils": "^15.4.0",
     "react-dom": "^15.4.0",
-    "react-router": "^2.8.1"
+    "react-redux": "^4.4.6",
+    "react-router": "^2.8.1",
+    "redux": "^3.6.0"
   }
 }
