@@ -4,7 +4,7 @@ import {Router, Route, hashHistory} from 'react-router';
 import {createStore, applyMiddleware} from 'redux';
 import {Provider} from 'react-redux';
 import io from 'socket.io-client';
-import reducer from './reducer.js';
+import reducer from './reducer';
 import {setState} from './action_creators.js';
 import remoteActionMiddleware from './remote_action_middleware.js';
 import App from './components/App.jsx';
